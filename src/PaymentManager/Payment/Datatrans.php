@@ -88,7 +88,7 @@ class Datatrans extends AbstractPayment implements RecurringPaymentInterface
         );
     }
 
-    protected function processOptions(array $options)
+    protected function processOptions(array $options) : void
     {
         parent::processOptions($options);
 
